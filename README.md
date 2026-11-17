@@ -28,7 +28,9 @@ I started by creating a proper Active Directory domain, NMG.com. I then created 
 * Designed department-based OU structure (Finance, HR, IT, Operations)
 * Implemented RBAC with security groups mapped to each department
 * Provisioned 15 user accounts with consistent naming conventions and attribute standards
-* Resolved my first incident ticket were I troubleshooted , applied solution and documented the report on the incident.
+* Diagnosed and resolved a multi-cause access issue (wrong OU + missing group membership)
+* Documented full incident resolution with root cause analysis
+
 
 
 
