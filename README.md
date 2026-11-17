@@ -1,10 +1,9 @@
 # Basic-Employee-Onboarding-AD-RBAC-
 
 ## Problem Statement
-[Provide 3 to 5 sentences describing what was broken at Northstar Medical Group. Mention the MSP mismanagement, lack of structure, manual processes, and HIPAA risks that existed before your project.]
-
+This project is about a fictional company called Northstar Medical Group, whose Active Directory had become chaotic and disorganized because of mismanagement by previous managed service providers (MSPs). The system lacked structure, and employees were added manually. Permissions were inconsistent: some employees had more access than they needed, while others had less than they should. This created significant security risk and jeopardized the company’s HIPAA compliance.
 ## Solution Overview
-[Provide 4 to 6 sentences describing what you built and how it solved the problem. Cover the new domain creation, the structural OU design, the security groups, the flat RBAC model, and how user provisioning was secured.]
+I started by creating a proper Active Directory domain, NMG.com. I then created Organizational Units (OUs) for four departments: Finance, HR, IT, and Operations. This structure is important because every user is identified by the department they belong to, which makes it easy to organize users by the work they do. I also created security groups and configured them so that when users are added to their department, they automatically receive access to what that department needs and nothing more
 
 ## Video Walkthrough
 [Add your video walkthrough link placeholder here. You will record this tomorrow and update this link so visitors can see a live demonstration of your lab environment.]
@@ -26,6 +25,6 @@
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* [Add your second key accomplishment here]
-* [Add your third key accomplishment here]
+* I applied the Role Based Access Control (RBAC) matrix which brought company structure to order. 
+* I solved my first incident ticket were I managed to troubleshoot, resolve and document everyhing.
 
