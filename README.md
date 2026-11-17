@@ -25,6 +25,10 @@ I started by creating a proper Active Directory domain, NMG.com. I then created 
 
 ## Key Accomplishments
 * Built NMG.com domain from scratch
-* I applied the Role Based Access Control (RBAC) matrix which brought company structure to order. 
-* I solved my first incident ticket were I managed to troubleshoot, resolve and document everyhing.
+* Designed department-based OU structure (Finance, HR, IT, Operations)
+* Implemented RBAC with security groups mapped to each department
+* Provisioned 15 user accounts with consistent naming conventions and attribute standards
+* Resolved my first incident ticket were I troubleshooted , applied solution and documented the report on the incident.
+
+
 
